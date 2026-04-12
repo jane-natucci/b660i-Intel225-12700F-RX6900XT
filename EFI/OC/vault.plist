@@ -148,6 +148,14 @@
 		<data>
 		ZobeEKKKL+EbNsu4bcusyCfPxOoRa02r8YReWu5inps=
 		</data>
+		<key>Kexts\RestrictEvents.kext\Contents\Info.plist</key>
+		<data>
+		EXASmgAR3ze/hXUITHMaXUkDhEB8B7eneNjsfbD2zhk=
+		</data>
+		<key>Kexts\RestrictEvents.kext\Contents\MacOS\RestrictEvents</key>
+		<data>
+		FpeSNvJywFAJE4guU0fjjVutGEHqYZ/loDEen3aK6k4=
+		</data>
 		<key>Kexts\SMCProcessor.kext\Contents\Info.plist</key>
 		<data>
 		YwOEcA5VUUgXbIcRWVbteY5fheRDUQ14J2mytBYFimo=
@@ -222,7 +230,7 @@
 		</data>
 		<key>config.plist</key>
 		<data>
-		T7E8n+zgb8XkrvFw18hnXkXckbRLLMW/FVfQNIXezz8=
+		IW8gthDYocFHxL1F5SwrvZiRdP1pdF5ziPvp3qqbhs4=
 		</data>
 	</dict>
 	<key>Version</key>
