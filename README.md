@@ -1,9 +1,13 @@
+# Specs
+
+![About This Mac](images/about_this_mac.png)
+
 # Components
 
 - Aorus B660I Pro DDR4
 - Intel225 (AirportItlwm.kext for WiFi & Bluetooth)
 - 12th Gen Intel(R) Core(TM) i7-12700F
-- RX 6800 XT & worked before with RX 6600
+- RX 6900 XT & worked before with RX 6600
 - Bluetooth Adapter https://www.amazon.de/dp/B0CXXX68BL?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_1&th=1
 - AppleALC
 
@@ -13,6 +17,14 @@
 - Sequoia
   - AirportItlwm.kext doesn't work anymore - no WiFi & no Bluetooth
   - AppleALC doesn't work anymore - no audio
+- Tahoe 26.4.1 - works
+  - Requires `-lilubetaall` boot-arg, otherwise the GPU (RX 6900 XT) doesn't work - found via [this Reddit comment](https://www.reddit.com/r/hackintosh/comments/1l7v6yd/comment/mx03ue5/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
+  - WiFi doesn't work - not investigated (not needed, using Ethernet, Intel I225 works)
+  - Bluetooth works
+
+# Reusing this config.plist
+
+`SystemSerialNumber`, `MLB`, `SystemUUID` and `ROM` in `EFI/OC/config.plist` are left blank in this repo. If you reuse this config, don't forget to generate and fill in your own values for these (e.g. with `macserial`/GenSMBIOS) - don't reuse mine or leave them blank on a real build.
 
 # Trivia
 
