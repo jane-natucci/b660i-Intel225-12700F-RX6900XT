@@ -23,6 +23,14 @@
   - WiFi doesn't work - not investigated (not needed, using Ethernet, Intel I225 works)
   - Bluetooth works
 
+# Tools
+
+- [ProperTree](https://github.com/corpnewt/ProperTree) - fine-grained editing of `config.plist`
+- [MountEFI](https://github.com/corpnewt/MountEFI) - mounting the EFI partition
+- [OCAuxiliaryTools](https://github.com/ic005k/OCAuxiliaryTools) - does all of the above in one place (mount EFI, open/edit `config.plist`, update kexts and OpenCore itself) for when fine-grained editing isn't needed
+- `Utilities/macserial` (bundled in this repo) - generate/verify `SystemSerialNumber` & `MLB`
+- `Utilities/CreateVault/sign.command` (bundled in this repo) - re-sign/vault the build after editing `config.plist`, otherwise boot breaks
+
 # Reusing this config.plist
 
 `SystemSerialNumber`, `MLB`, `SystemUUID` and `ROM` in `EFI/OC/config.plist` are left blank in this repo. If you reuse this config, don't forget to generate and fill in your own values for these (e.g. with `macserial`/GenSMBIOS) - don't reuse mine or leave them blank on a real build.
