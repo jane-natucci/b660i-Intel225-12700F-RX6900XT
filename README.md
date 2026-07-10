@@ -1,6 +1,6 @@
 # Specs
 
-![About This Mac](images/about_this_mac.png)
+<img src="images/about_this_mac.png" alt="About This Mac" width="300">
 
 # Components
 
