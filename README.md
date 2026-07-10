@@ -41,4 +41,4 @@ When I started with Ruby on Rails in 2013, a colleague planted in me the idea of
 
 # Alpenföhn Black Ridge + B660I
 
-Is to be avoided, because of one of the heatsinks on the motherboard and the radiator don't fit together.
+Is to be avoided, because of one of the heatsinks on the motherboard and the radiator don't fit together. You will have to find a more suitable motherboard - I chose this one without paying much attention to the compatibility of all of the components, and building a Hackintosh again was a possibility added as an afterthought that eventually became a reality.
