@@ -27,7 +27,7 @@
 
 - [ProperTree](https://github.com/corpnewt/ProperTree) - fine-grained editing of `config.plist`
 - [MountEFI](https://github.com/corpnewt/MountEFI) - mounting the EFI partition
-- [OCAuxiliaryTools](https://github.com/ic005k/OCAuxiliaryTools) - does all of the above in one place (mount EFI, open/edit `config.plist`, update kexts and OpenCore itself) for when fine-grained editing isn't needed
+- [OCAuxiliaryTools](https://github.com/ic005k/OCAuxiliaryTools) - does all of the above in one place: mount the EFI, open `config.plist` with a more visual/GUI approach instead of raw plist editing, and upgrade kexts and OpenCore itself. Good enough when I don't need ProperTree's fine-grained editing
 - `Utilities/macserial` (bundled in this repo) - generate/verify `SystemSerialNumber` & `MLB`
 - `Utilities/CreateVault/sign.command` (bundled in this repo) - re-sign/vault the build after editing `config.plist`, otherwise boot breaks
 
