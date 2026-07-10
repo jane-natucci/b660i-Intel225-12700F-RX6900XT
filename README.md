@@ -37,7 +37,7 @@
 
 # Trivia
 
-When I started with Ruby on Rails in 2013, a colleague planted in me the idea of making a Hakintosh, and so I've made one based on i5-4570K. The one above is the 3rd one I've built. Old habits die hard.
+When I started with Ruby on Rails in 2013, a colleague planted in me the idea of making a Hakintosh (I never owned a Mac back then and being in the Linux world, building my own Mac instead of just buying one totally made sense), and so I've made one based on i5-4570K. The one above is the 3rd one I've built. Old habits die hard.
 
 # Alpenföhn Black Ridge + B660I
 
